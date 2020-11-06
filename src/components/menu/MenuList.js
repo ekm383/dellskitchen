@@ -195,10 +195,17 @@ const StyledMenu = styled.div`
     margin: 0rem auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   .column {
     /* border: 1px solid red; */
     flex-basis: 48%;
+  }
+  @media (max-width: 768px) {
+    .column {
+      /* border: 1px solid red; */
+      flex-basis: 100%;
+    }
   }
 `
 

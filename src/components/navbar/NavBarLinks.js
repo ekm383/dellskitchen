@@ -7,11 +7,6 @@ class NavBarLinks extends Component {
   state = {
     links: [
       {
-        id: 0,
-        path: "/",
-        text: "Home",
-      },
-      {
         id: 1,
         path: "/",
         text: "Menu",
@@ -91,7 +86,7 @@ const LinkWrapper = styled.ul`
       }
     }
   }
-  height: ${props => (props.open ? "200px" : "0px")};
+  height: ${props => (props.open ? "120px" : "0px")};
   overflow: hidden;
   transition: all 0.1s ease-in-out;
   @media (min-width: 768px) {
@@ -103,9 +98,11 @@ const LinkWrapper = styled.ul`
     justify-content: flex-end;
     align-items: center;
     .nav-link {
-      font-size: 1.2rem;
+      font-size: 0.9rem;
       padding: 0rem 1rem;
       color: var(--mainColor);
+      text-transform: uppercase;
+      font-weight: bold;
     }
     .nav-link:hover {
       color: var(--white);
@@ -122,7 +119,7 @@ const LinkWrapper = styled.ul`
         padding-top: 0rem;
       }
       a {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color: var(--mainColor);
         transition: all 0.2s ease-in-out;
         &:hover {

@@ -31,13 +31,13 @@ const Header = () => {
             <button className="banner-button">View Menu</button>
           </a>
         </div>
-        <div className="contact-container">
+        {/* <div className="contact-container">
           <ul>
             <li className="phone">(808) 123-4567</li>
             <li>1110 McCully St. Honolulu, HI 96826</li>
             <li>Monday-Sunday 10:00am-10:00pm</li>
           </ul>
-        </div>
+        </div> */}
       </BackgroundImage>
     </StyledHeader>
   )
@@ -56,7 +56,9 @@ const StyledHeader = styled.div`
     text-align: center;
     .banner-button {
       margin: 0rem auto;
-      font-size: 1.2rem;
+      font-size: 0.9rem;
+      font-weight: bolder;
+      text-transform: uppercase;
       color: var(--mainColor);
       background: none;
       padding: 0.5rem 1.2rem;
@@ -71,7 +73,7 @@ const StyledHeader = styled.div`
       }
     }
   }
-  .contact-container {
+  /* .contact-container {
     width: 100%;
     color: var(--mainColor);
     margin-top: 70px;
@@ -87,14 +89,14 @@ const StyledHeader = styled.div`
     .phone {
       color: var(--mainColor) !important;
     }
-  }
+  } */
 
   @media (max-width: 768px) {
     .bg-image {
       width: 100%;
       height: 550px;
     }
-    .contact-container {
+    /* .contact-container {
       margin-top: 50px;
       text-align: center;
       font-size: 0.8rem;
@@ -106,7 +108,7 @@ const StyledHeader = styled.div`
         font-weight: bold;
         font-size: 1rem;
       }
-    }
+    } */
   }
 `
 

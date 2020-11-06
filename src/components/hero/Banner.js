@@ -26,9 +26,9 @@ const BannerWrapper = styled.div`
   .title {
     text-transform: uppercase;
     font-family: "trebuchet";
-    font-size: 6rem;
+    font-size: 137px;
     font-weight: bold;
-    line-height: 5rem;
+    line-height: 99px;
     margin-bottom: 1rem;
   }
   .subtitle {
@@ -38,8 +38,8 @@ const BannerWrapper = styled.div`
   @media (max-width: 768px) {
     padding-top: 5rem;
     .title {
-      font-size: 4rem;
-      line-height: 3.5rem;
+      font-size: 3rem;
+      line-height: 3rem;
     }
     .subtitle {
       font-size: 1.2rem;
