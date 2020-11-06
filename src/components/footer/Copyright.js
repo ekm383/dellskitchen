@@ -11,7 +11,7 @@ const Copyright = () => {
       }}
     >
       <p style={{ fontSize: "10px" }}>
-        McCully11X &copy; 2020 All Rights Reserved
+        Dell's Kitchen & Bakery &copy; 2020 All Rights Reserved
       </p>
     </div>
   )

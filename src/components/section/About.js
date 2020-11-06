@@ -8,7 +8,7 @@ import { FaYelp, FaInstagram } from "react-icons/fa"
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      exterior: file(relativePath: { eq: "dk-pork.jpg" }) {
+      exterior: file(relativePath: { eq: "Dells-Kitchen-kalbi.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 500) {
             ...GatsbyImageSharpFluid_tracedSVG
@@ -107,6 +107,7 @@ const StyledAbout = styled.div`
       margin-left: -50px;
       position: relative;
       z-index: 1;
+      text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.8);
     }
     p {
       color: var(--darkGray);
