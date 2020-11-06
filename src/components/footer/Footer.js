@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 const Footer = () => {
   const data = useStaticQuery(graphql`
     query {
-      logo: file(relativePath: { eq: "mccully11x-logo.png" }) {
+      logo: file(relativePath: { eq: "dells-kitchen-logo.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 500) {
             ...GatsbyImageSharpFluid_tracedSVG

@@ -6,7 +6,7 @@ import NavBarLogo from "./NavBarLogo"
 const NavBarHeader = ({ handleNavBar }) => {
   return (
     <HeaderWrapper>
-    <NavBarLogo />
+      <NavBarLogo />
       <FaBars
         className="toggle-icon"
         onClick={() => {

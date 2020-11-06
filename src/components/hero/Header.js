@@ -8,7 +8,7 @@ import Banner from "./Banner"
 const Header = () => {
   const data = useStaticQuery(graphql`
     query {
-      hero: file(relativePath: { eq: "Dells-Kitchen-kalbi.jpg" }) {
+      hero: file(relativePath: { eq: "dk-chicken.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1200, quality: 100) {
             ...GatsbyImageSharpFluid_tracedSVG
@@ -33,7 +33,7 @@ const Header = () => {
         </div>
         <div className="contact-container">
           <ul>
-            <li>(808) 123-4567</li>
+            <li className="phone">(808) 123-4567</li>
             <li>1110 McCully St. Honolulu, HI 96826</li>
             <li>Monday-Sunday 10:00am-10:00pm</li>
           </ul>
@@ -57,11 +57,13 @@ const StyledHeader = styled.div`
     .banner-button {
       margin: 0rem auto;
       font-size: 1.2rem;
-      color: white;
+      color: var(--mainColor);
       background: none;
       padding: 0.5rem 1.2rem;
-      border: 2px solid white;
+      color: var(--mainColor);
+      border: 2px solid var(--mainColor);
       border-radius: 25px;
+      transition: 100ms ease-in-out;
       &:hover {
         cursor: pointer;
         background: white;
@@ -71,7 +73,7 @@ const StyledHeader = styled.div`
   }
   .contact-container {
     width: 100%;
-    color: white;
+    color: var(--mainColor);
     margin-top: 70px;
     font-size: 1rem;
     ul {
@@ -81,6 +83,9 @@ const StyledHeader = styled.div`
     li:nth-child(1) {
       font-weight: bold;
       font-size: 1.2rem;
+    }
+    .phone {
+      color: var(--mainColor) !important;
     }
   }
 

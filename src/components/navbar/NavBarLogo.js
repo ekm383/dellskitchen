@@ -6,7 +6,7 @@ import styled from "styled-components"
 const NavBarLogo = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "mccully11x-logo.png" }) {
+      placeholderImage: file(relativePath: { eq: "dells-kitchen-logo.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
@@ -31,13 +31,15 @@ const NavBarLogo = () => {
 }
 
 const LogoWrapper = styled.div`
-/* border: 1px solid red; */
+  /* border: 1px solid red; */
+  margin: 0rem auto 0rem 39%;
   .logo {
-    width: 80px;
+    width: 90px;
   }
   @media (min-width: 768px) {
     /* border: 1px dotted blue; */
     width: 20vw;
+    margin: 0;
     padding-top: 0rem;
     .logo {
       width: 150px;

@@ -14,13 +14,13 @@ const Banner = ({ style, title, subtitle, children }) => {
 }
 
 const BannerWrapper = styled.div`
-padding-top: 4rem;
+  padding-top: 4rem;
   .box {
     width: 80%;
     margin: 0rem auto;
     display: flex;
     flex-direction: column;
-    color: var(--white);
+    color: var(--mainColor);
     text-align: center;
   }
   .title {
@@ -29,14 +29,14 @@ padding-top: 4rem;
     font-weight: bold;
     line-height: 8rem;
     margin-bottom: 1rem;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   }
   .subtitle {
     font-family: "trebuchet";
     font-size: 1.5rem;
     font-style: italic;
     font-weight: lighter;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   }
   @media (max-width: 768px) {
     padding-top: 5rem;

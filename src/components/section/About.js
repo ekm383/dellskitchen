@@ -43,7 +43,7 @@ const About = () => {
         </div>
         <div className="copy-container">
           <h4>Quality cuisine made with love and experience.</h4>
-          <h2>McCully 11X</h2>
+          <h2>DELL'S KITCHEN</h2>
           <p>
             Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
             in laying out print, graphic or web designs. The passage is

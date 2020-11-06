@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import styled from "styled-components"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import { FaInstagram, FaYelp, } from "react-icons/fa"
+import { FaInstagram, FaYelp } from "react-icons/fa"
 
 class NavBarLinks extends Component {
   state = {
@@ -58,7 +58,7 @@ class NavBarLinks extends Component {
 }
 
 const LinkWrapper = styled.ul`
-margin: 0rem auto;
+  margin: 0rem auto;
   li {
     list-style-type: none;
   }
@@ -110,10 +110,10 @@ margin: 0rem auto;
     .nav-link {
       font-size: 1.2rem;
       padding: 0rem 1rem;
-      color: var(--white);
+      color: var(--mainColor);
     }
     .nav-link:hover {
-      color: var(--mainColor);
+      color: var(--white);
       background: none;
     }
     .social {
@@ -128,10 +128,10 @@ margin: 0rem auto;
       }
       a {
         font-size: 1.5rem;
-        color: var(--white);
+        color: var(--mainColor);
         transition: all 0.2s ease-in-out;
         &:hover {
-          color: var(--mainColor);
+          color: var(--white);
         }
       }
     }
