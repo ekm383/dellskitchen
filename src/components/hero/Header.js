@@ -2,30 +2,34 @@ import React from "react"
 import BackgroundImage from "gatsby-background-image"
 import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
-import NavBar from '../navbar/NavBar'
-import Banner from './Banner'
+import NavBar from "../navbar/NavBar"
+import Banner from "./Banner"
 
 const Header = () => {
-
   const data = useStaticQuery(graphql`
-  query {
-    hero: file(relativePath: { eq: "Dells-Kitchen-kalbi.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 1200, quality: 100) {
-          ...GatsbyImageSharpFluid_tracedSVG
+    query {
+      hero: file(relativePath: { eq: "Dells-Kitchen-kalbi.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1200, quality: 100) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
         }
       }
     }
-  }
-`)
-const hero = data.hero.childImageSharp.fluid
+  `)
+  const hero = data.hero.childImageSharp.fluid
   return (
     <StyledHeader>
       <BackgroundImage className="bg-image" fluid={hero}>
         <NavBar />
-        <Banner title="Dell's Kitchen" subtitle="Quality Plate Lunches & Baked Goods" />
+        <Banner
+          title="Dell's Kitchen"
+          subtitle="Quality Plate Lunches & Baked Goods"
+        />
         <div className="button-container">
-          <a href="/"><button className="banner-button">View Menu</button></a>
+          <a href="/">
+            <button className="banner-button">View Menu</button>
+          </a>
         </div>
         <div className="contact-container">
           <ul>
@@ -68,7 +72,7 @@ const StyledHeader = styled.div`
   .contact-container {
     width: 100%;
     color: white;
-    margin-top: 90px;
+    margin-top: 70px;
     font-size: 1rem;
     ul {
       list-style-type: none;
@@ -84,7 +88,7 @@ const StyledHeader = styled.div`
     .bg-image {
       width: 100%;
       height: 550px;
-    } 
+    }
     .contact-container {
       margin-top: 50px;
       text-align: center;
@@ -94,9 +98,9 @@ const StyledHeader = styled.div`
         margin-left: 0rem;
       }
       li:nth-child(1) {
-      font-weight: bold;
-      font-size: 1rem;
-    }
+        font-weight: bold;
+        font-size: 1rem;
+      }
     }
   }
 `
