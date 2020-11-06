@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import BackgroundImage from 'gatsby-background-image'
 import NavBarHeader from "./NavBarHeader"
 import NavBarLinks from "./NavBarLinks"
 import styled from "styled-components"

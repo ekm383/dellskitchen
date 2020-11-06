@@ -6,12 +6,14 @@ import About from "./section/About"
 import Map from "./map/Map"
 import Footer from "./footer/Footer"
 import Copyright from "./footer/Copyright"
+import MenuList from "./menu/MenuList"
 
 const Layout = () => {
   return (
     <>
       <Header />
       <About />
+      <MenuList />
       <Map />
       <Footer />
       <Copyright />

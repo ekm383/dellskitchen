@@ -98,11 +98,10 @@ const StyledAbout = styled.div`
     z-index: 1;
     color: var(--mainColor);
     h4 {
-      font-family: "trebuchet";
-      font-style: italic;
-      font-weight: lighter;
+      font-family: "helvetica";
     }
     h2 {
+      font-family: "trebuchet";
       font-size: 3rem;
       text-transform: uppercase;
       margin-left: -50px;

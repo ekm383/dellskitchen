@@ -21,11 +21,6 @@ class NavBarLinks extends Component {
         path: "/",
         text: "Order Takeout",
       },
-      {
-        id: 3,
-        path: "/",
-        text: "Contact",
-      },
     ],
   }
   render() {

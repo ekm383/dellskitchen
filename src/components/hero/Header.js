@@ -23,7 +23,7 @@ const Header = () => {
       <BackgroundImage className="bg-image" fluid={hero}>
         <NavBar />
         <Banner
-          title="Dell's Kitchen"
+          title="Dell's Kitchen & Bakery"
           subtitle="Quality Plate Lunches & Baked Goods"
         />
         <div className="button-container">
