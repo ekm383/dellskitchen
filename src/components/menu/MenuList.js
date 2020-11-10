@@ -13,7 +13,7 @@ const MenuList = () => {
           Salad, and Daily Namasu
         </p>
       </div>
-      <div className="menu-container">
+      <div id="menu" className="menu-container">
         <div className="column column1">
           <MenuItem
             dish="Hayashi Beef Rice"

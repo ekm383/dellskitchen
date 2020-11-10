@@ -27,7 +27,7 @@ const Header = () => {
           subtitle="Quality Plate Lunches & Baked Goods"
         />
         <div className="button-container">
-          <a href="/">
+          <a href="#menu">
             <button className="banner-button">View Menu</button>
           </a>
         </div>

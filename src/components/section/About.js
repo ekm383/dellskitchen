@@ -57,10 +57,10 @@ const About = () => {
             <a href="/">
               <FaYelp />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/dellskitchenandbakery/">
               <FaInstagram />
             </a>
-            <a href="/">
+            <a href="https://goo.gl/maps/sKocJvv9ZVRHwb847">
               <button className="actions-button">Directions</button>
             </a>
           </div>
