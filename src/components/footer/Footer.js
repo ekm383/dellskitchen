@@ -23,9 +23,9 @@ const Footer = () => {
         <div className="column">
           <h6>Hours of Operation:</h6>
           <ul>
-            <li>Coming Soon</li>
-            {/* <li>Sunday-Thursday 10:00am-9:00pm</li>
-            <li>Friday & Saturday 10:00am-10:30pm</li> */}
+            <li>Open Daily</li>
+            <li>Bakery 7:00am-2:00pm</li>
+            <li>Kitchen 11:00am-8:00pm</li>
           </ul>
         </div>
         <div className="column">
@@ -39,8 +39,6 @@ const Footer = () => {
           <h6>Contact Us:</h6>
           <ul>
             <li>Coming Soon</li>
-            {/* <li>Phone: (808) 123-4567</li>
-            <li>Email: info@mccully11x.com</li> */}
           </ul>
         </div>
       </div>

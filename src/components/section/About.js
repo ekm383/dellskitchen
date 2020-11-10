@@ -45,11 +45,13 @@ const About = () => {
           <h4>Quality cuisine made with love and experience.</h4>
           <h2>DELL'S KITCHEN</h2>
           <p>
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
-            in laying out print, graphic or web designs. The passage is
-            attributed to an unknown typesetter in the 15th century who is
-            thought to have scrambled parts of Cicero's De Finibus Bonorum et
-            Malorum for use in a type specimen book.
+            Dell’s Kitchen and Bakery is the brainchild of Chef Dell Valdez. His
+            love and passion for food and creativity has led him to open his
+            first takeout eatery along with a bakery. Drawing from his years of
+            culinary experience in some of Hawaii’s best restaurants, Chef has
+            applied those techniques to his interpretation of “Local
+            Style/Asian” food. Layers of flavor, local products, and always with
+            Aloha is what can and to be expected here at “d.k.b”.
           </p>
           <div className="actions-container">
             <a href="/">
