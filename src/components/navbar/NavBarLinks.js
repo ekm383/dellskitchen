@@ -11,11 +11,11 @@ class NavBarLinks extends Component {
         path: "#menu",
         text: "Menu",
       },
-      {
-        id: 2,
-        path: "/",
-        text: "Order Takeout",
-      },
+      // {
+      //   id: 2,
+      //   path: "/",
+      //   text: "Order Takeout",
+      // },
     ],
   }
   render() {

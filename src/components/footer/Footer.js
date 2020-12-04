@@ -42,7 +42,7 @@ const Footer = () => {
         <div className="column">
           <h6>Contact Us:</h6>
           <ul>
-            <li>Coming Soon</li>
+            <li>(808) 840-0496</li>
           </ul>
         </div>
       </div>
