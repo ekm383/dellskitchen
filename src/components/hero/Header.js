@@ -59,11 +59,11 @@ const StyledHeader = styled.div`
       font-size: 0.9rem;
       font-weight: bolder;
       text-transform: uppercase;
-      color: var(--mainColor);
+      color: var(--white);
       background: none;
       padding: 0.5rem 1.2rem;
-      color: var(--mainColor);
-      border: 2px solid var(--mainColor);
+      color: var(--white);
+      border: 2px solid var(--white);
       border-radius: 25px;
       transition: 100ms ease-in-out;
       &:hover {
@@ -94,7 +94,7 @@ const StyledHeader = styled.div`
   @media (max-width: 768px) {
     .bg-image {
       width: 100%;
-      height: 550px;
+      height: 500px;
     }
     /* .contact-container {
       margin-top: 50px;

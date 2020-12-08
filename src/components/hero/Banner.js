@@ -24,6 +24,7 @@ const BannerWrapper = styled.div`
     text-align: center;
   }
   .title {
+    color: white;
     text-transform: uppercase;
     font-family: "trebuchet";
     font-size: 137px;
@@ -32,6 +33,7 @@ const BannerWrapper = styled.div`
     margin-bottom: 1rem;
   }
   .subtitle {
+    color: white;
     font-family: "helvetica";
     font-size: 1.5rem;
   }
