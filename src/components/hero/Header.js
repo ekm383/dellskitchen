@@ -22,10 +22,7 @@ const Header = () => {
     <StyledHeader>
       <BackgroundImage className="bg-image" fluid={hero}>
         <NavBar />
-        <Banner
-          title="Dell's Kitchen & Bakery"
-          subtitle="Quality Plate Lunches & Baked Goods"
-        />
+        <Banner title="Dell's Kitchen" subtitle="Quality Plate Lunches" />
         <div className="button-container">
           <a href="#menu">
             <button className="banner-button">View Menu</button>
@@ -48,7 +45,7 @@ const StyledHeader = styled.div`
   display: flex;
   .bg-image {
     width: 100%;
-    height: 800px;
+    height: 700px;
   }
   .button-container {
     width: 100%;
@@ -94,7 +91,7 @@ const StyledHeader = styled.div`
   @media (max-width: 768px) {
     .bg-image {
       width: 100%;
-      height: 500px;
+      height: 400px;
     }
     /* .contact-container {
       margin-top: 50px;

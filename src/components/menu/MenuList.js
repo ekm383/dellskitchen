@@ -64,7 +64,10 @@ const MenuList = () => {
             dish="Kawagoe Gyoza $9.50"
             description="Our Famous Homemade Gyoza. Made Fresh Daily."
           />
-          <MenuItem dish="Ginger Pork $9.50" description="" />
+          <MenuItem
+            dish="Ginger Pork $9.50"
+            description="Thin slices of pork marinated in ginger and soy"
+          />
         </div>
       </div>
       {/* Chicken Section */}
@@ -131,7 +134,10 @@ const MenuList = () => {
             dish="Seafood Croquette $12"
             description="Bay Scallop, Shrimp and Imitation Crab. Chef Masa's Honey Shallot Sauce"
           />
-          <MenuItem dish="Yakisoba $9.50" description="" />
+          <MenuItem
+            dish="Yakisoba $9.50"
+            description="Sautéed pork and mixed veggies with MIO PASTALOGY spaghetti pasta"
+          />
         </div>
       </div>
       {/* Vegetarian Section */}
