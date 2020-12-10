@@ -11,11 +11,12 @@ class NavBarLinks extends Component {
         path: "#menu",
         text: "Menu",
       },
-      // {
-      //   id: 2,
-      //   path: "/",
-      //   text: "Order Takeout",
-      // },
+      {
+        id: 2,
+        path:
+          "https://www.grindztogo.com/single.php/order/restaurant/dells-kitchen--bakery/69?takeout=1",
+        text: "Order Takeout",
+      },
     ],
   }
   render() {
@@ -100,12 +101,12 @@ const LinkWrapper = styled.ul`
     .nav-link {
       font-size: 0.9rem;
       padding: 0rem 1rem;
-      color: var(--mainColor);
+      color: var(--white);
       text-transform: uppercase;
       font-weight: bold;
     }
     .nav-link:hover {
-      color: var(--white);
+      color: var(--mainColor);
       background: none;
     }
     .social {

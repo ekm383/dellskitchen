@@ -24,8 +24,8 @@ const Header = () => {
         <NavBar />
         <Banner title="Dell's Kitchen" subtitle="Quality Plate Lunches" />
         <div className="button-container">
-          <a href="#menu">
-            <button className="banner-button">View Menu</button>
+          <a href="https://www.grindztogo.com/single.php/order/restaurant/dells-kitchen--bakery/69?takeout=1">
+            <button className="banner-button">Order Takeout</button>
           </a>
         </div>
         {/* <div className="contact-container">
