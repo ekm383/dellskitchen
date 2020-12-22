@@ -23,6 +23,18 @@ const Header = () => {
       <BackgroundImage className="bg-image" fluid={hero}>
         <NavBar />
         <Banner title="Dell's Kitchen" subtitle="Quality Plate Lunches" />
+        <h3
+          style={{
+            textAlign: "center",
+            color: "#ffffff",
+            margin: "5px auto",
+            backgroundColor: "#000000",
+            width: "320px",
+            padding: "10px",
+          }}
+        >
+          Christmas Day Hours: 3PM - 8PM
+        </h3>
         <div className="button-container">
           <a href="https://www.grindztogo.com/single.php/order/restaurant/dells-kitchen--bakery/69?takeout=1">
             <button className="banner-button">Order Takeout</button>
