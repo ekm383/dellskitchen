@@ -24,7 +24,7 @@ const Footer = () => {
           <h6>Hours of Operation:</h6>
           <ul>
             <li>Open Daily</li>
-            <li>Bakery COMING SOON</li>
+            <li>Bakery 9:00am-8:00pm</li>
             <li>Kitchen 10:30am-8:00pm</li>
           </ul>
         </div>
