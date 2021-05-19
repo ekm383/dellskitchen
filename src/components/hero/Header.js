@@ -25,7 +25,7 @@ const Header = () => {
         <Banner title="Dell's Kitchen" subtitle="Quality Plate Lunches" />
 
         <div className="button-container">
-          <a href="https://www.grindztogo.com/single.php/order/restaurant/dells-kitchen--bakery/69?takeout=1">
+          <a href="https://dells-kitchen-bakery.square.site">
             <button className="banner-button">Order Takeout</button>
           </a>
         </div>

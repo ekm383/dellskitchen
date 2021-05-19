@@ -27,10 +27,10 @@ const MenuList = () => {
   return (
     <StyledMenu>
       <div id="menu">
-        <a href="https://www.grindztogo.com/single.php/order/restaurant/dells-kitchen--bakery/69?takeout=1">
+        <a href="https://dells-kitchen-bakery.square.site">
           <Img className="menu" fluid={menu01} />
         </a>
-        <a href="https://www.grindztogo.com/single.php/order/restaurant/dells-kitchen--bakery/69?takeout=1">
+        <a href="https://dells-kitchen-bakery.square.site">
           <Img className="menu" fluid={menu02} />
         </a>
       </div>

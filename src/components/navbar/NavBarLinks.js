@@ -13,8 +13,7 @@ class NavBarLinks extends Component {
       },
       {
         id: 2,
-        path:
-          "https://www.grindztogo.com/single.php/order/restaurant/dells-kitchen--bakery/69?takeout=1",
+        path: "https://dells-kitchen-bakery.square.site",
         text: "Order Takeout",
       },
     ],
