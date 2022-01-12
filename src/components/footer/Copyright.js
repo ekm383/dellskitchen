@@ -11,7 +11,7 @@ const Copyright = () => {
       }}
     >
       <p style={{ fontSize: "10px" }}>
-        Dell's Kitchen & Bakery &copy; 2021 All Rights Reserved
+        Dell's Kitchen & Bakery &copy; 2022 All Rights Reserved
       </p>
     </div>
   )
