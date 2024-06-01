@@ -6,14 +6,18 @@ import Img from "gatsby-image"
 const MenuList = () => {
   const data = useStaticQuery(graphql`
     query {
-      menu01: file(relativePath: { eq: "Dells-Kitchen-Menu-01.jpg" }) {
+      menu01: file(
+        relativePath: { eq: "DellsKitchen_Screen_Menu_2022_01_13_01.jpg" }
+      ) {
         childImageSharp {
           fluid(maxWidth: 1200, quality: 100) {
             ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }
-      menu02: file(relativePath: { eq: "Dells-Kitchen-Menu-02.jpg" }) {
+      menu02: file(
+        relativePath: { eq: "DellsKitchen_Screen_Menu_2022_01_13_02.jpg" }
+      ) {
         childImageSharp {
           fluid(maxWidth: 1200, quality: 100) {
             ...GatsbyImageSharpFluid_tracedSVG
